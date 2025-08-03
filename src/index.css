@@ -1,0 +1,25 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap';
+@import "tailwindcss";
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+@theme{
+    --color-primary-purple: #4A2267;
+    --color-primary-grey: #f2f2f2;
+    --color-primary-green: #D1e6be;
+    --color-secundary-purple: #d5bee6;
+    
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Edge */
+}
